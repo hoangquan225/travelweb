@@ -1,0 +1,279 @@
+/* PC */
+
+@media (min-width: 1024px) and (max-width: 1239px){
+    .package {
+        width: 984px;
+    }
+}
+
+@media (min-width: 1024px){
+    
+}
+
+@media (max-width: 1200px) {
+    .home__container-text h1:first-child {
+        font-size: 92px;
+    }
+    .home__container-text h1:last-child {
+        font-size: 80px;
+    }
+    .home__container-btn{
+        width: 41%;
+        margin-top: 16px;
+    }
+
+}
+
+
+/* MB & TB */
+@media (max-width: 1023px) {
+    .header__btn {
+        display: block;
+    }
+    .header__container--PC{
+        display: none;
+    }
+
+
+    .home__container-text h1:first-child {
+        font-size: 72px;
+    }
+    .home__container-text h1:last-child {
+        font-size: 60px;
+    }
+    .home__container-btn{
+        width: 54%;
+        margin-top: 36px;
+    }
+    
+
+    .search {
+        padding: 60px 0;
+    }
+    .search__travel {
+        flex-wrap: wrap;
+        position:relative;
+    }
+    .search__travel-item{
+        flex-basis: 48%;
+        padding: 15px;
+        margin: 5px;
+        border: 1px solid #e0e0e0;
+        box-shadow: 0 2px 5px rgb(0, 0, 0, 0.3);
+    }
+    .search__travel div:first-child{
+        border-top-left-radius: 0;
+    }
+    .search__travel div:last-child{
+        border-top-right-radius: 0;
+    }
+    .search__register{
+        margin-top: 200px;
+        flex-wrap: wrap;
+    }
+    .search__register-btn {
+        width: calc(100%/3);
+        margin-left: auto;
+    }
+    .search__register-item{
+        margin-bottom: 16px;
+    }
+
+    .mt-0 {
+        display: none;
+    }
+    .mt-col {
+        width: 100%;
+    }
+    .mt-col-2 {
+        width: 50%;
+    }
+    .mt-col-3 {
+        width: calc(100%/3);
+    }
+    .mt-col-4 {
+        width: 25%;
+    }
+
+    .tour__container-place {
+        flex-wrap: wrap;
+    }
+
+    .place__list {
+        margin-bottom: 50px;
+    }
+    
+    .offers__container-item {
+        flex-basis: 100%;
+        max-width: 100%;
+    }
+   
+
+    .comment__container {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .comment__item {
+        flex-basis: 70%;
+        max-width: 70%;
+        margin-bottom: 40px;
+    }
+    .comment__body {
+        height: 25%;
+    }
+}
+
+
+
+
+/* Tablet */
+@media (min-width: 740px) and (max-width: 1023px){
+    .package {
+        width: 644px;
+    }
+
+    .search-input {
+        width: 50%;
+    }
+
+    .pdr-8 {
+        padding:0 8px 0 0;
+    }
+
+    .pdl-8 {
+        padding:0 0 0 8px;
+    }
+}
+
+
+
+/* Moblie */
+@media (max-width: 739px) {
+    .package {
+        width: 98%;
+    }
+
+
+    .header__btn {
+        right: 0;
+        top: -3px;
+    }
+    .header .header__icon-search{
+        padding-right: 60px;
+    }
+    
+    .search {
+        padding: 60px 0 312px;
+        }
+    .search-input {
+        right: 0;
+        width: 100%;
+    }
+
+    .m-col {
+        width: 100%;
+    }
+    .m-col-2 {
+        width: 50%;
+    }
+
+    .search__register-item {
+        padding: 0 5px;
+    }
+    .search__register-item h3{
+        margin: 16px 0 12px;
+    }
+
+    .pages {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .trending__item {
+        justify-content: center;
+    }
+
+    .pages__container p{
+        font-size: 16px;
+        line-height: 2;
+    }
+}
+
+
+
+
+
+/* */
+@media (max-width: 495px){
+    .header .header__subnav {
+        position: fixed;
+        z-index: 2;
+        width: 100%;
+    }
+    .header .header__navbar {
+        display: none;
+    }
+    .header .header__container {
+        padding: 5px 0;
+    }
+
+
+    .home__container-text h1:first-child {
+        font-size: 48px;
+    }
+    .home__container-text h1:last-child {
+        font-size: 42px;
+        margin-top: 0;
+    }
+    .home__container-btn {
+        width: 80%;
+        margin-top: 30px;
+    }
+    
+
+    .search__travel-item {
+        height: 64px;
+    }
+    .search__register {
+        margin-top: 364px;
+    }
+    .search__register-item {
+        width: 100%;
+    }
+    .search__register div:nth-child(4) {
+        width: 50%;
+    }
+    .search__register div:nth-child(5) {
+        width: 50%;
+    }
+
+
+    .offers__body {
+        flex-wrap: wrap;
+        margin: 0 15px;
+    }
+    .offers__body-place,
+    .offers__body-content {
+        flex: 100%;
+        max-width: 100%;
+    }
+
+    .offers__link {
+        margin-top: 24px;
+    }
+
+    .trending__item{
+        flex-direction: column;
+        align-items: center;
+    }
+    .trending__item-place {
+        margin: 6px 0 0 12px;
+    }
+
+    .footer__container-item {
+        width: 100%;
+        margin-bottom: 32px;
+    }
+}
+
+
