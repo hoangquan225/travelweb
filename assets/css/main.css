@@ -193,11 +193,7 @@ body {
     transform: scaleX(0);
 }
 
-.header .header__container-list a:hover::after {
-    opacity: 1;
-    transform: scaleX(1);
-}
-
+.header .header__container-list a:hover::after,
 .header .header__container-list a.acti::after {
     opacity: 1;
     transform: scaleX(1);
@@ -301,6 +297,9 @@ body {
     display: block;
 }
 
+
+
+.header .header__container--menu-list a.acti,
 .header__container--menu-list a:hover{
     color: var(--yellow);
 }
