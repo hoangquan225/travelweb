@@ -436,15 +436,33 @@ body {
 /* loading dot */
 @keyframes loading-dot {
     to {
-    opacity: 0.3;
-    /* transform: translate3d(0, -4px, 0); */
+    opacity: 0.2;
+    transform: translate3d(0, -4px, 0);
     }
 }
+
+/* .loader-page > span {
+    animation: loading-dot 0.6s alternate infinite;
+}
+
+.preloading {
+    overflow: hidden;
+}
+
+.loader-page {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+} */
+
 .loader {
     display: flex;
     justify-content: center;
     margin-left: 8px;
 }
+
 .loader > span {
     width: 7px;
     height: 7px;
@@ -453,6 +471,7 @@ body {
     border-radius: 50%;
     /* animation: loading-dot 0.6s alternate infinite; */
 }
+
 .loader > span:nth-child(2) {
     animation-delay: 0.2s;
     opacity: 0.6;

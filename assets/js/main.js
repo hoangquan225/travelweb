@@ -108,4 +108,9 @@ for (var i = 0; i < travelJs.length; i++) {
 }
 
 
-
+// loading page
+// $(window).on('load', function(event) {
+//   $('body').removeClass('preloading');
+//      $('.loader-page').delay(1000).fadeOut('fast');
+//   // $('.loader-page').delay(1000).fadeOut('fast');
+// });
